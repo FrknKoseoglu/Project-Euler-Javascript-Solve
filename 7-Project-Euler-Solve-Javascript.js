@@ -6,11 +6,10 @@ By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that 
 
 What is the 10 001st prime number?
 
-https://projecteuler.net/problem=6
+https://projecteuler.net/problem=7
 
 */
 
-let result = 0
 let limit = 10001
 let primeArr = []
 let counter = 1
@@ -32,4 +31,3 @@ while (primeArr.length != limit) {
 }
 
 console.log(primeArr[limit - 1])
-// console.log(result)
