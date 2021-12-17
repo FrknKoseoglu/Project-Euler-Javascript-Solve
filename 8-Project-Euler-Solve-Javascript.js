@@ -38,7 +38,7 @@ let numArr = num.split("")
 let numPart = []
 let resultArr = []
 
-for (let i = 0; i <= 999; i++) {
+for (let i = 0; i < num.length; i++) {
     numPart = numArr.slice(i, i + limit)
     numPart.forEach(element => {
         product *= element
